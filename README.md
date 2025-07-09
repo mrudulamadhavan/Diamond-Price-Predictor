@@ -17,4 +17,4 @@ A machine learning-powered web app to predict the price of diamonds based on cha
 
 
 
-https://mrudulamadhavan-internship-innomatics-m-asgmt-prodhome-atek5j.streamlit.app
+**Streamlit App Link :** https://diamondprice-predictor.streamlit.app/
