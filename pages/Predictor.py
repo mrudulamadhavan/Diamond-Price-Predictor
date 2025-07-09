@@ -29,7 +29,6 @@ df= pd.read_csv(DATA_PATH)
 df1=df.copy()
 
 
-# xgb = pickle.load(open('diamond.pkl','rb'))
 scaler = pickle.load(open('models/standard_scaler.pkl','rb'))
 xgb = pickle.load(open('models/xgb_model.pkl','rb'))
 
