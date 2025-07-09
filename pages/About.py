@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 #Adding Image
-# FILE_DIR = os.path.dirname(os.path.abspath('m_asgmt_prod/pages/About.py'))
+# FILE_DIR = os.path.dirname(os.path.abspath('pages/About.py'))
 # dir_of_interest = os.path.join(FILE_DIR, "resources")
 # IMAGE_PATH = os.path.join(dir_of_interest, "images", "dia1.jpg")
 
@@ -24,7 +24,7 @@ st.markdown("""This app uses **machine learning** to predict diamond prices base
 """)
 st.write("")
 # Load and display image (adjust the path as needed)
-img_path = 'm_asgmt_prod/resources/images/dia1.jpg'
+img_path = 'resources/images/dia1.jpg'
 st.image(img_path,caption="Diamond Anatomy",  use_container_width=False)
 
 # Three-column layout
