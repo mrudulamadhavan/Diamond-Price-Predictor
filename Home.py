@@ -18,9 +18,6 @@ IMAGE_PATH = os.path.join(dir_of_interest, "images")
 IMAGE_PATH1 = os.path.join(IMAGE_PATH, "dia2.jpg")
 
 img = image.imread(IMAGE_PATH1)
-
-# Center image with container trick
-
 st.image(img, width=900)
 
 
