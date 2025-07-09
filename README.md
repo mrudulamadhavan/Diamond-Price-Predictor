@@ -9,7 +9,8 @@ A machine learning-powered web app to predict the price of diamonds based on cha
 - 98%+ R² accuracy on test data
 
 - Model Evaluation
-- > | Model             | R² Score | RMSE    |
+> 
+| Model             | R² Score | RMSE    |
 | ----------------- | -------- | ------- |
 | Random Forest     | 98.05%   | 553.43  |
 | XGBoost           | 98.03%   | 557.64  |
